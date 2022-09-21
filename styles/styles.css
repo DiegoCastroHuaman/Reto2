@@ -1,0 +1,151 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background: hsl(217, 54%, 11%);
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+h3 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+.div_card {
+  filter: drop-shadow(19em, 19em, 19em);
+  width: 340px;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.div_imag {
+  position: relative;
+  left: 1px;
+  top: 24px;
+}
+
+
+.image {
+
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.view {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 98.8%;
+  background-color: hsla(178, 100%, 50%, 0.468);
+  opacity: 0;
+}
+
+.view .view-image {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.card_content {
+  position: relative;
+  top: 22px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.div-eth-clock {
+  position: relative;
+  top: 23px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.565);
+  padding-bottom: 10px;
+}
+
+.eth-icon {
+  position: relative;
+  top: 17px;
+}
+
+.eth {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.clock {
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.clock-icon {
+  position: relative;
+  top: 17px;
+}
+
+.div-foot {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-foot {
+  position: relative;
+  top: 40px;
+  width: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.457);
+  border-radius: 50px;
+}
+
+.foot-text {
+  position: relative;
+  left: 63px;
+  bottom: 10px;
+  font-weight: 100px;
+}
+
+.div-foot span {
+  font-weight: 400;
+  cursor: grab;
+  transition: 0.3s;
+}
+
+span:hover {
+  
+  background-color: rgb(17, 54, 51);
+}
